@@ -1,0 +1,9 @@
+import { routes } from "../../routes/route";
+import { useRoutes } from "react-router-dom";
+
+const AllRoute = () => {
+  const elements = useRoutes(routes);
+  return <>{elements}</>;
+};
+
+export default AllRoute;
